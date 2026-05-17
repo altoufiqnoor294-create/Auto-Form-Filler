@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Form Filler",
+  "version": "1.0",
+  "description": "Automatically fills Google Forms",
+  "content_scripts": [
+    {
+      "matches": ["*://docs.google.com/forms/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
